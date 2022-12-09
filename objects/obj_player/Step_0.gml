@@ -38,3 +38,20 @@ if (place_meeting(x,y+vsp,obj_wall))
 	vsp = 0;
 }
 y = y + vsp;
+
+// Animation
+if (!place_meeting(x,y+1,obj_wall))
+{
+	sprite_index = spr_player_jump;
+	if (vsp < 0) image_index = 2 else image_index = 5
+}
+else
+{
+	if (hsp == 0)
+	{
+		sprite_index = spr_player_walk
+		image_index = 0
+	}
+}
+
+if (hsp != 0) image_xscale = sign(hsp);
