@@ -50,7 +50,12 @@ else
 	if (hsp == 0)
 	{
 		sprite_index = spr_player_walk
-		image_index = 0
+		image_speed = 0
+	}
+	else
+	{
+		sprite_index = spr_player_walk
+		image_speed = 1
 	}
 }
 
