@@ -2,5 +2,5 @@
 hsp = 0;
 vsp = 0;
 grv = 0.15;
-walksp = 1.6;
+walksp = 1.5;
 jumpsp = 3;
