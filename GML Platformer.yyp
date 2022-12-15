@@ -3,7 +3,7 @@
   "resourceVersion": "1.6",
   "name": "GML Platformer",
   "resources": [
-    {"id":{"name":"spr_blockplaceholder","path":"sprites/spr_blockplaceholder/spr_blockplaceholder.yy",},"order":1,},
+    {"id":{"name":"spr_clouds","path":"sprites/spr_clouds/spr_clouds.yy",},"order":1,},
     {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},"order":1,},
     {"id":{"name":"spr_player_walk","path":"sprites/spr_player_walk/spr_player_walk.yy",},"order":4,},
     {"id":{"name":"spr_invisiblewall","path":"sprites/spr_invisiblewall/spr_invisiblewall.yy",},"order":2,},
