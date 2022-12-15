@@ -3,6 +3,7 @@
 // Player Inputs
 key_left = keyboard_check(vk_left);
 key_right = keyboard_check(vk_right);
+key_down = keyboard_check(vk_down);
 key_space = keyboard_check_pressed(vk_space);
 
 // Calculate Movement
@@ -60,3 +61,18 @@ else
 }
 
 if (hsp != 0) image_xscale = sign(hsp);
+
+
+if (place_meeting(x,y+1,obj_wall)) and (key_down)
+{
+	if (hsp == 0)
+	{
+		sprite_index = spr_player_crouch
+		image_speed = 0
+	}
+	else
+	{
+		sprite_index = spr_player_crouch
+		image_speed = 1
+	}
+}
